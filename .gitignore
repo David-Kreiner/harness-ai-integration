@@ -1,0 +1,3 @@
+venv/*
+config/pipeline-service-openapi.yaml
+*/__pycache__/*

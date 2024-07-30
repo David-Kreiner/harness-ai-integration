@@ -1,0 +1,8 @@
+Name: Harness Pipeline Mgr
+Chat: true
+Context: ../tools/tool.gpt
+# Tools: list-pipelines from ../config/pipeline-service-openapi.yaml
+Description: Use this tool to work with pipelines
+Args: request: the task requested by the user
+
+Help the user complete their pipeline operation requests
