@@ -68,13 +68,9 @@ $ python main_app/main.py
 
 ## Using the Chat Endpoint
 
-To interact with the chat endpoint, send a POST request to `http://localhost:8000/chat` with the following JSON payload:
+To interact with the chat endpoint, send a POST request to `http://localhost:8000/chat` with the following CURL request:
 
-```json
-{
-  "input": "Your message here"
-}
-```
+curl -X POST "http://localhost:8000/chat" -H "Content-Type: application/json" -d '{"user_id": "user123", "input": "Example Prompt"}'
 
 ## Testing
 
